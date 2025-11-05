@@ -67,7 +67,7 @@ class Task1WidgetsPage extends StatelessWidget {
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
             SizedBox(height: 10),
             
-            // Wrap with 4 colored boxes
+          
             Wrap(
               spacing: 10,
               runSpacing: 10,
@@ -78,22 +78,22 @@ class Task1WidgetsPage extends StatelessWidget {
                   color: Colors.blue,
                 ),
                 Container(
-                  width: 80, // ← You had this missing!
-                  height: 80, // ← Changed to 80 to match others
+                  width: 80, 
+                  height: 80,
                   color: Colors.orange,
                 ),
                 Container(
-                  width: 80, // ← Changed to 80 to match others
-                  height: 80, // ← Changed to 80 to match others
+                  width: 80, 
+                  height: 80, 
                   color: Colors.purple,
                 ),
                 Container(
-                  width: 80, // ← Changed to 80 to match others
-                  height: 80, // ← Changed to 80 to match others
+                  width: 80,
+                  height: 80, 
                   color: Colors.cyan,
                 ),
               ],
-            ), // ← Don't forget comma!
+            ), 
           ],
         ),
       ),
